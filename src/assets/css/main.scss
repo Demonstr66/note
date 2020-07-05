@@ -1,0 +1,13 @@
+
+$bg-decoration: #93ad2b;
+$bg-color: #fffdf6;
+$header-bg: #715641;
+$light: #fffefa;
+$form-bg: #fff9e7;
+$inner-border: #999;
+
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
